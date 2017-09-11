@@ -1,0 +1,150 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav{
+    overflow: hidden;
+    background: #ffffff;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    /*color: #6495ED;*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #6495ED;
+}
+
+nav .logo{
+    float: left;
+    font-size: 25px;
+    color: #EE2C2C;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: sans-serif;
+}
+
+nav .logo ul{
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+
+nav ul li input[type=submit]{
+    padding: 10px;
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.subNav{
+    background-color: #D9D9D9;
+    height: 400px;
+    text-align: center;
+}
+
+.subNavImg{
+    background-image: url("../pictures/skb1.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.subImg{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.subImg h5, em{
+    color: #B8B8B8;
+}
+
+.subImg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subImg h1{
+    color: #4D4D4D;
+    font-size: 50px;
+}
+
+
+.abvFooter{
+    margin: 30px;;
+    overflow: hidden;
+}
+
+.profile{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50px;
+}
+
+.profile h4{
+    font-family: cursive;
+    color: #4A4A4A;
+    margin-top: 3px;
+}
+
+.footer{
+    /*width: 100%;*/
+    height: 400px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.info{
+    width: 50%;
+}
+
+.info ul{
+    float: left;
+    margin: 20px;
+}
+.info ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.info h3{
+    color: red;
+    text-align: center;
+}
+
+.info ul li a{
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.contact input[type=text]{
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    width: 100px;   
+}
