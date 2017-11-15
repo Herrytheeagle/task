@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1441658045 source:c:\users\heritage\desktop\web\personalassign\main.cpp
+	<iostream>
+	<string>
+	"include/Studentgrades.h"
+
+1441708369 c:\users\heritage\desktop\web\personalassign\include\studentgrades.h
+	<iostream>
+	<string>
+
+1441708977 source:c:\users\heritage\desktop\web\personalassign\src\studentgrades.cpp
+	<iostream>
+	<string>
+	"../include/Studentgrades.h"
+
